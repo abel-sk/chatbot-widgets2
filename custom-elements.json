@@ -1,0 +1,243 @@
+{
+  "schemaVersion": "1.0.0",
+  "readme": "",
+  "modules": [
+    {
+      "kind": "javascript-module",
+      "path": "src/ChatbotWidget.ts",
+      "declarations": [
+        {
+          "kind": "class",
+          "description": "",
+          "name": "ChatbotWidget",
+          "members": [
+            {
+              "kind": "field",
+              "name": "header",
+              "type": {
+                "text": "string"
+              },
+              "default": "'Hey there'"
+            },
+            {
+              "kind": "field",
+              "name": "counter",
+              "type": {
+                "text": "number"
+              },
+              "default": "5"
+            },
+            {
+              "kind": "method",
+              "name": "__increment"
+            }
+          ],
+          "superclass": {
+            "name": "LitElement",
+            "package": "lit"
+          },
+          "tagName": "chatbot-widget",
+          "customElement": true
+        }
+      ],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "ChatbotWidget",
+          "declaration": {
+            "name": "ChatbotWidget",
+            "module": "src/ChatbotWidget.ts"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "src/chatbot-widget.ts",
+      "declarations": [],
+      "exports": [
+        {
+          "kind": "custom-element-definition",
+          "name": "chatbot-widget",
+          "declaration": {
+            "name": "ChatbotWidget",
+            "module": "/src/ChatbotWidget.js"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "src/index.ts",
+      "declarations": [],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "ChatbotWidget",
+          "declaration": {
+            "name": "ChatbotWidget",
+            "module": "./ChatbotWidget.js"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "dist/src/ChatbotWidget.d.ts",
+      "declarations": [
+        {
+          "kind": "class",
+          "description": "",
+          "name": "ChatbotWidget",
+          "members": [
+            {
+              "kind": "field",
+              "name": "header",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "kind": "field",
+              "name": "counter",
+              "type": {
+                "text": "number"
+              }
+            },
+            {
+              "kind": "method",
+              "name": "__increment",
+              "return": {
+                "type": {
+                  "text": "void"
+                }
+              }
+            }
+          ],
+          "superclass": {
+            "name": "LitElement",
+            "package": "lit"
+          },
+          "tagName": "chatbot-widget",
+          "customElement": true
+        }
+      ],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "ChatbotWidget",
+          "declaration": {
+            "name": "ChatbotWidget",
+            "module": "dist/src/ChatbotWidget.d.ts"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "dist/src/ChatbotWidget.js",
+      "declarations": [
+        {
+          "kind": "class",
+          "description": "",
+          "name": "ChatbotWidget",
+          "members": [
+            {
+              "kind": "method",
+              "name": "__increment"
+            },
+            {
+              "kind": "field",
+              "name": "header",
+              "type": {
+                "text": "string"
+              },
+              "default": "'Hey there'"
+            },
+            {
+              "kind": "field",
+              "name": "counter",
+              "type": {
+                "text": "number"
+              },
+              "default": "5"
+            }
+          ],
+          "superclass": {
+            "name": "LitElement",
+            "package": "lit"
+          },
+          "tagName": "chatbot-widget",
+          "customElement": true
+        }
+      ],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "ChatbotWidget",
+          "declaration": {
+            "name": "ChatbotWidget",
+            "module": "dist/src/ChatbotWidget.js"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "dist/src/chatbot-widget.d.ts",
+      "declarations": [],
+      "exports": []
+    },
+    {
+      "kind": "javascript-module",
+      "path": "dist/src/chatbot-widget.js",
+      "declarations": [],
+      "exports": [
+        {
+          "kind": "custom-element-definition",
+          "name": "chatbot-widget",
+          "declaration": {
+            "name": "ChatbotWidget",
+            "module": "/dist/src/ChatbotWidget.js"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "dist/src/index.d.ts",
+      "declarations": [],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "ChatbotWidget",
+          "declaration": {
+            "name": "ChatbotWidget",
+            "module": "./ChatbotWidget.js"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "dist/src/index.js",
+      "declarations": [],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "ChatbotWidget",
+          "declaration": {
+            "name": "ChatbotWidget",
+            "module": "./ChatbotWidget.js"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "dist/test/chatbot-widget.test.d.ts",
+      "declarations": [],
+      "exports": []
+    }
+  ]
+}

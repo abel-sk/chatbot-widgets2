@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      background: #fafafa;
+      height: 100vh;
+      width: 100vw;
+      padding: 0px;
+      margin: 0px;
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <div id="demo"></div>
+
+  <script type="module">
+    import { html, render } from 'lit';
+    import '../dist/src/chatbot-widget.js';
+
+    render(
+      html`
+        <chatbot-widget></chatbot-widget>
+      `,
+      document.querySelector('#demo')
+    );
+  </script>
+</body>
+</html>
